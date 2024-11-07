@@ -1,0 +1,94 @@
+* {
+    transition: background-color 0.6s;
+}
+
+body {
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%230084d1' fill-opacity='0.4'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+    display: flex;
+    font-family: "Quicksand", serif;
+}
+
+.container {
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #d7f2ff;
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 20px;
+    width: 600px;
+    height: 1250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 1);
+    font-size: 20px;
+}
+
+.buttons {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 15px 40px;
+    display: flex;
+    justify-content: center;
+    color: #d7f2ff;
+    padding: 20px 0;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.buttons:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.icons-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 40px;
+}
+
+.icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#img-profile {
+    width: 325px;
+    height: 325px;
+    border-radius: 100%;
+    margin: 15px auto;
+}
+
+#title {
+    margin: 15px auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 45px;
+}
+
+#title:hover::after {
+    content: "Christian Rios";
+}
+
+#title::after {
+    content: "The Space";
+}
+
+#description {
+    margin: 15px 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 15px;
+}
